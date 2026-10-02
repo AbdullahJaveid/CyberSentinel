@@ -1,0 +1,44 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local application data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/baselines/*
+!data/baselines/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

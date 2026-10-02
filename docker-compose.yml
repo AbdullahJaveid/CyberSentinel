@@ -1,0 +1,7 @@
+services:
+  cybersentinel:
+    build: .
+    working_dir: /app
+    volumes:
+      - ./data:/app/data
+    command: ["python", "main.py"]
